@@ -22,6 +22,73 @@
   right: 0;
 }
 
+.heading-logo{
+  
+  margin: 0;
+}
+
+.navigation {
+  position: fixed; 
+  z-index: 1000;
+  width: 100%;
+  background-color:  #1ecbf4;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation__link__title{
+  display: block;
+  color: #ffffff; 
+  text-decoration: none;
+  padding: 1em;
+  font-weight: 400;
+  width: 40%;
+  text-align: center;
+}
+
+.navigation__link {
+    display: block;
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 1em;
+    font-weight: 400;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    line-height: 50px;
+}
+
+/* .navigation__link:hover {
+      background-color: white;
+      color: #1ecbf4;
+} */
+  
+    
+.navigation__link.active {
+       color: white;
+       background-color: 
+
+       rgba(0,0,0,0.1);
+}
+
+.navigation__link:after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background-color: red;
+  transition: 0.25s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .heading-part {
   display: flex;
   justify-content: space-between;
