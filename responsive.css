@@ -316,7 +316,10 @@
         width: 84px;
         margin: 0;
     }
-    
+    .service-part{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     
 }
 
