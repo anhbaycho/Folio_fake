@@ -12,9 +12,31 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .header-mobile{
+    .header-part-hover{
         display: none;
-      }
+    }
+    .heading{
+        width: 100vw;
+    }
+    .ronaldo img{
+        width: 300px;
+        height: 300px;
+    }
+    .ronaldo{
+        flex-direction: column;
+        height: 480px;
+        align-items: center;
+        justify-content: center;
+    }
+    .defenition{
+        width: fit-content;
+        padding: 10px 10px;
+        margin-left: 42px;
+    }
+    .aboutfootball-container p{
+        font-size: 22px;
+    }
+    
 }
 
 @media (max-width: 767px){

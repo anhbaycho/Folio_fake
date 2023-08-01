@@ -3,6 +3,30 @@
     .header-mobile{
         display: none;
     }
+    .sightseeing img{
+        position: absolute;
+        right: -44px;
+        bottom: 9px;
+        scale: 90%;
+    }
+    .sightseeing p{
+        top: 119px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .header-part-hover{
+        display: none;
+    }
+    .heading{
+        width: 100vw;
+    }
+    .sightseeing img{
+        right: -22px;
+        scale: 90%;
+        position: absolute;
+        bottom: 5px;
+    }
 }
 
 /* Mobile screen */
